@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hypershift
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/hypershift/hypershift@sha256:a1ab86689800e4da5094c1fd232ed6c6d66d55195ca2a62990eacdaa5907e3ce
+        name: container-image
+        resources: {}
+status: {}
