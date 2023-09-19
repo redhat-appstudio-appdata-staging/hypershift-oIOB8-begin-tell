@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/hypershift/hypershift@sha256:a1ab86689800e4da5094c1fd232ed6c6d66d55195ca2a62990eacdaa5907e3ce
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/hypershift/hypershift@sha256:96194d010ff5bdf679db2615339f75a47e6ff72656fa876383ed338ac012ba48
         name: container-image
         resources: {}
 status: {}
