@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: hypershift
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/hypershift/hypershift@sha256:a1ab86689800e4da5094c1fd232ed6c6d66d55195ca2a62990eacdaa5907e3ce
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/hypershift/hypershift@sha256:247aa16e07eae4213085650410988167b41fb9e137909ec29f41167e12acdb34
         imagePullPolicy: Always
         name: container-image
         ports:
